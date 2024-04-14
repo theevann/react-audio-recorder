@@ -11,7 +11,7 @@ interface StyleProps {
   /**
    * Applies passed classes to audio recorder start/save option
    **/
-  AudioRecorderStartSaveClass?: string;
+  AudioRecorderStartDiscardClass?: string;
   /**
    * Applies passed classes to audio recorder timer
    **/
@@ -27,7 +27,7 @@ interface StyleProps {
   /**
    * Applies passed classes to audio recorder discard option
    **/
-  AudioRecorderDiscardClass?: string;
+  AudioRecorderSaveClass?: string;
 }
 
 export interface Props {
